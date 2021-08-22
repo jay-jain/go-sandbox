@@ -1,0 +1,16 @@
+{
+    "vulnerabilities":[
+        {
+            "name" : "TLS 1.4 hack",
+            "category" : "dependency",
+            "severity" : "high",
+            "remediation" : "Upgrade to TLS 1.5"
+        },
+        {
+            "name" : "SQL Injection",
+            "category" : "sast",
+            "severity" : "critical",
+            "remediation" : "Validate variables passed to SQL connection"
+        }
+    ]
+}
